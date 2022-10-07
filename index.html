@@ -4,43 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
-<body style="background-color: gray;">
+<body>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/16/Kaizer_Chiefs_logo.svg" alt="Kaizer Chiefs logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#project">Project</a></li>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/1/16/Kaizer_Chiefs_logo.svg" alt="Kaizer Chiefs logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#project">Project</a></li>|
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <main>
-            <!--Home-->
-            <section id="home">
-                <h2>Home</h2>
-                <div>
-                    <h4>Gift Mahlangu</h4>
-                    <img src="https://i.postimg.cc/QtSPgNdM/1660659262547.jpg" alt="Gift Profile">
-                    <p>Software Developer</p>
-                </div>
-            </section>
-            <!--Resume-->
-            <section id="resume">
-                <h2>Resume</h2>
-            </section>
-            <!--Project-->
-            <section id="project">
-                <h2>Project</h2>
-            </section>
-            <!--Contact-->
-            <section id="contact">
-                <h2>Contact</h2>
-            </section>
-        </main>
+        
     </header>
-    
+    <main>
+        <!--Home-->
+        <section id="home">
+            <h2>Home</h2>
+            <div class="wrapper">
+                <h4>Gift Mahlangu</h4>
+                <img src="https://i.postimg.cc/QtSPgNdM/1660659262547.jpg" alt="Gift Profile">
+                <p>Aspiring Software Developer</p>
+            </div>
+        </section>
+        <!--Resume-->
+        <section id="resume">
+            <h2>Resume</h2>
+            <h3>Education</h3>
+            <p>I got a Responsive Web Design certificate in 2022 from FreeCodeCamp.<br>
+                I enrolled for a Bsc in Computer Science in University of Pretoria.<br>
+            </p>
+            <div>
+                <p>I obtained my matric certificate in 2015 at Kwandebele Science<br> Combined School.
+                    I got a bachelors pass including Pure Mathematics and Sciences.</p>
+            </div>
+
+        </section>
+        <!--Project-->
+        <section id="project">
+            <h2>Project</h2>
+            <div>
+                <figure>
+                    <img src="https://i.postimg.cc/Wz2m3hWS/Project-1.png" alt="project screenshot">
+                    
+
+                </figure>
+                <p>My first project get it on my github: <a href="https://github.com/giftnkz6/lifechoices">github</a></p>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="address-form">
+                <form class="form"action="https://formspree.io/f/mrgdkjgy" method="POST">
+                    <div>
+                        <input id="firstname" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <input id="email" name="email" type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+
+                </form>
+                <section class="addressp">
+                    <address>
+                        Written by <a href="giftnkz6@gmail.com">Gift Mahlangu</a><br>
+                        Visit us at:<br>
+                        Life Choices
+                        314 Imam Haron Road, Lansdowne<br>
+                        South Africa
+                    </address>
+                </section>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+.logo {
+    width: 3em;
+}
+/* Place the menu to the right of the page. */
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin: 5px 10px 0;
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0 5px;
+}
+/* main */
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+/* home */
+#home {
+    
+    /* background-color: rgba(106, 115, 92, .7); */
+}
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+}
+.wrapper p {
+    text-align: center;
+}
+#resume h3{
+    color: green;
+}
+#resume h2{
+    color: orange;
+}
+#resume p{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: azure;
+    width: 200px;
+    height: 180px;
+    border-radius: 100px / 50px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin:auto;
+}
+body{
+    background-color: grey;
+}
+.addressp{
+    text-align: center;
+}
+#contact .address-form .form{
+    text-align: center;
+}
+#resume{
+    
+}
+#project{
+    color: skyblue;
+}
+#project .img-project{
+    width: 3em;
+}
