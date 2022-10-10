@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 body{
     background-color: grey;
 }
-.addressp{
+.addressp address{
     text-align: center;
 }
 #contact .address-form .form{
@@ -86,4 +86,17 @@ body{
 }
 #project .img-project{
     width: 3em;
+    text-align: center;
+}
+.fig img{
+    width: 13em;
+    align-content: center;
+}
+#project div .fig img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project div p{
+    text-align: center;
 }
