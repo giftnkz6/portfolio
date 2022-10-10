@@ -29,6 +29,14 @@ header {
 .menu-list li {
     padding: 0 5px;
 }
+header .menu .menu-list li a{
+    list-style: none;
+    color: #fff;
+}
+header .menu .menu-list li a:hover {
+    color: fuchsia;
+    z-index: 1;
+  }
 /* main */
 /* heading */
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 #home {
     
     /* background-color: rgba(106, 115, 92, .7); */
+    color: white;
 }
 .wrapper {
     min-height: 100vh;
@@ -51,15 +60,15 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper p {
     text-align: center;
 }
-#resume h3{
-    color: green;
+#resume h4{
+    color: black;
 }
 #resume h2{
-    color: orange;
+    color: White;
 }
 #resume p{
     text-align: center;
-    border-style: solid;
+    border-style: dashed;
     border-radius: 10%;
     border-color: azure;
     width: 200px;
@@ -68,21 +77,25 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     padding-top: 20px;
     margin:auto;
+    color: yellow;
 }
 body{
     background-color: grey;
+    background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png");
 }
 .addressp address{
     text-align: center;
+    color: white;
+}
+address a{
+    text-decoration: none;
+    color: green;
 }
 #contact .address-form .form{
     text-align: center;
 }
-#resume{
-    
-}
 #project{
-    color: skyblue;
+    color: purple;
 }
 #project .img-project{
     width: 3em;
@@ -103,4 +116,13 @@ body{
 footer p{
     text-align: center;
     font-weight: bold;
+    color: black;
+}
+p{
+    color: white;
+}
+#project div a{
+    text-decoration: none;
+    text-align: center;
+    color: greenyellow;
 }
