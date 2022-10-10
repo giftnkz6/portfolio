@@ -87,3 +87,15 @@ body{
 #project .img-project{
     width: 3em;
 }
+.fig img{
+    width: 13em;
+    align-content: center;
+}
+#project div .fig img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project div p{
+    text-align: center;
+}
