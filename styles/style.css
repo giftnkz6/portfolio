@@ -11,7 +11,15 @@ header, main, footer {
 header {
     display: inline-flex;
     justify-content: space-between;
-    background-color: darkgray;
+    background-color: pink;
+}
+body{
+    background-color:lightcoral;
+    /* background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png"); */
+    
+         /* This image is the first priority */
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+    /* background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg"); */
 }
 .logo {
     width: 3em;
@@ -31,7 +39,7 @@ header {
 }
 header .menu .menu-list li a{
     list-style: none;
-    color: #fff;
+    color: black;
 }
 header .menu .menu-list li a:hover {
     color: fuchsia;
@@ -47,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 #home {
     
     /* background-color: rgba(106, 115, 92, .7); */
-    color: white;
+    color: black;
 }
 .wrapper {
     min-height: 100vh;
@@ -77,19 +85,16 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     padding-top: 20px;
     margin:auto;
-    color: yellow;
+    color: black;
 }
-body{
-    background-color: grey;
-    background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png");
-}
+
 .addressp address{
     text-align: center;
     color: white;
 }
 address a{
     text-decoration: none;
-    color: green;
+    color: black;
 }
 #contact .address-form .form{
     text-align: center;
@@ -125,4 +130,28 @@ p{
     text-decoration: none;
     text-align: center;
     color: greenyellow;
+}
+.radio{
+    color: white;
+}
+header .menu-list a{
+    text-decoration: none;
+}
+footer{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#skills p{
+    text-align: center;
+}
+.container {
+    width: 100%; /* Full width */
+    background-color: blue; /* Grey background */
+  }
+
+.skills{
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
 }
