@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    text-align: center;
+}
 /* header, main, footer */
 header, main, footer {
     min-width: 100%;
@@ -11,16 +14,18 @@ header, main, footer {
 header {
     display: inline-flex;
     justify-content: space-between;
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: blueviolet;
 }
 body{
     background-color:lightcoral;
     /* background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png"); */
     
          /* This image is the first priority */
-    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
-    background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg");
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+    /* background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg"); */
 }
+
 
 .logo {
     width: 3em;
@@ -73,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 #resume h2{
-    color: White;
+    /* color: White; */
 }
 #resume p{
     text-align: center;
@@ -91,7 +96,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .addressp address{
     text-align: center;
-    color: white;
+    /* color: white; */
+    color: blueviolet;
 }
 address a{
     text-decoration: none;
@@ -104,11 +110,11 @@ address a{
     color: purple;
 }
 #project .img-project{
-    width: 3em;
+    width: 1em;
     text-align: center;
 }
 .fig img{
-    width: 13em;
+    width: 25%;
     align-content: center;
 }
 #project div .fig img{
@@ -123,9 +129,11 @@ footer p{
     text-align: center;
     font-weight: bold;
     color: black;
+    margin-bottom: 10px;
 }
 p{
-    color: white;
+    color: black;
+    /* color: blueviolet; */
 }
 #project div a{
     text-decoration: none;
@@ -133,14 +141,14 @@ p{
     color: greenyellow;
 }
 .radio{
-    color: white;
+    color: black;
 }
 header .menu-list a{
     text-decoration: none;
 }
 footer{
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 #skills p{
     text-align: center;
@@ -155,4 +163,50 @@ footer{
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
     color: white; /* White text color */
+}
+h2{
+    font-size: 3em;
+    color: purple;
+}
+#description{
+    font-size: 120%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+#menu #menu-list{
+    /* display: inline-flex; */
+    list-style: none;
+}
+#menu #menu-list li {
+    margin-bottom: 10px;
+}
+#menu #menu-list li a{
+    text-decoration: none;
+}
+#menu{
+    vertical-align: center;
+}
+#about{
+    display: block;
+
+}
+.image-about{
+    text-align: center;
+}
+.about-container{
+    border: 1px solid purple;
+    width: 23%;
+    padding-bottom: 15px;
+    margin-left: 200px;
+    margin: auto;
+    max-height: 50vh;
+    margin-top: 20px;
+    padding-left: 0px;
+    background-color: purple;
+    /* text-align: center; */
+}
+#about{
+    margin: auto;
 }
