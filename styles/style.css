@@ -18,9 +18,10 @@ body{
     /* background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png"); */
     
          /* This image is the first priority */
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
-    /* background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg"); */
+    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
+    background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg");
 }
+
 .logo {
     width: 3em;
 }
