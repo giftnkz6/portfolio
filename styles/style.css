@@ -12,13 +12,17 @@ header, main, footer {
 }
 /* header */
 header {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    /* background-color: pink; */
-    background-color: blueviolet;
+    /* background-color: pink;  */
+    /* opacity: 0.7; */
+    /* background-color: blueviolet;   */
+    position: fixed; 
+    top: 0;
+    margin-bottom: 20%;
 }
 body{
-    background-color:lightcoral;
+    /* background-color:lightcoral; */
     /* background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png"); */
     
          /* This image is the first priority */
@@ -40,6 +44,9 @@ body{
     display: inline-flex;
     list-style: none;
 }
+.menu{
+    /* position: fixed; */
+}
 .menu-list li {
     padding: 0 5px;
 }
@@ -56,12 +63,18 @@ header .menu .menu-list li a:hover {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 15px;
+    color: black;
 }
 /* home */
 #home {
     
     /* background-color: rgba(106, 115, 92, .7); */
     color: black;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+#home p{
+    font-size: large;
 }
 .wrapper {
     min-height: 100vh;
@@ -70,6 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper img{
     display: block;
     margin: 15px auto;
+    /* width: 50%; */
+    height: 32em;
 }
 .wrapper p {
     text-align: center;
@@ -94,27 +109,40 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+
 .addressp address{
     text-align: center;
     /* color: white; */
-    color: blueviolet;
+    color: black;
+    /* font-weight: bold; */
 }
 address a{
     text-decoration: none;
     color: black;
+    font-weight: bolder;
+}
+#contact{
+    margin-top: 3%;
 }
 #contact .address-form .form{
     text-align: center;
+    
+}
+#contact .address-form .form input{
+    padding: .5%;
+    margin: .2% 0%;
 }
 #project{
     color: purple;
+    margin-top: 8%;
 }
 #project .img-project{
-    width: 1em;
+    /* width: 1em; */
     text-align: center;
 }
 .fig img{
-    width: 25%;
+    width: 19vw; 
+    /* height: 83vh; */
     align-content: center;
 }
 #project div .fig img{
@@ -138,7 +166,7 @@ p{
 #project div a{
     text-decoration: none;
     text-align: center;
-    color: greenyellow;
+    color: black;
 }
 .radio{
     color: black;
@@ -146,6 +174,7 @@ p{
 header .menu-list a{
     text-decoration: none;
 }
+
 footer{
     margin-bottom: 10px;
     margin-top: 20px;
@@ -156,7 +185,7 @@ footer{
 .container {
     width: 100%; /* Full width */
     background-color: blue; /* Grey background */
-  }
+}
 
 .skills{
     text-align: right; /* Right-align text */
@@ -181,32 +210,123 @@ footer{
 }
 #menu #menu-list li {
     margin-bottom: 10px;
+    
 }
 #menu #menu-list li a{
     text-decoration: none;
+    
 }
 #menu{
     vertical-align: center;
 }
 #about{
     display: block;
+    
 
 }
 .image-about{
+    margin-left: 32%;
+    /* width: 40vw; */
+    /* width: 50vh; */
+    height: 28em;
+    margin-bottom: 10%;
+}
+#about h2{
     text-align: center;
 }
-.about-container{
-    border: 1px solid purple;
-    width: 23%;
-    padding-bottom: 15px;
-    margin-left: 200px;
-    margin: auto;
-    max-height: 50vh;
-    margin-top: 20px;
-    padding-left: 0px;
-    background-color: purple;
-    /* text-align: center; */
+
+.about-box{
+    /* border: 1px dashed white; */
+    max-width: 30%;
+    /* padding-top: 2%; */
+    padding-bottom: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 100px/50px;
+    margin-left: 4%;
+    /* margin: auto; */
+    max-height: 55vh;
+    margin-top: 3%;
+    padding-left: 1.5%;;
+    /* background-color: purple; */
 }
+.about-box p{
+    min-width: 20em;
+    font-size: 100%;
+}
+.about-container{
+    display: flex;
+}
+
 #about{
     margin: auto;
+}
+.first-image img{
+    width: 14%;
+    border-radius: 65%;
+    height: 26vh;
+    margin-left: 42%;
+    margin-bottom: 0.01%;
+
+}
+#testimonial .first-image{
+    display: flex;
+}
+#testimonial .first-testimonial{
+    display: inline-block;
+    /* Real styles */
+    position: relative;
+    width: 22%;
+    height: 105px;
+    margin-left: 2%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #c1c1c1;
+    margin-top: 2%;
+
+}
+.second-image img{
+    border-radius: 65%;
+    width: 14%;
+    height: 26vh;
+    margin-left: 22%;
+    margin-top: 1%;
+
+}
+#testimonial .second-tetstimonial{
+    display: inline-block;
+    /* Real styles */
+    position: relative;
+    width: 22%;
+    height: 105px;
+    margin-left: 2%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #c1c1c1;
+    /* margin-top: 2%; */
+
+}
+.third-image img{
+    border-radius: 65%;
+    margin-left: 24%;
+}
+#testimonial .third-testimonial{
+    display: inline-block;
+    /* Real styles */
+    position: relative;
+    width: 22%;
+    height: 70px;
+    margin-left: 2%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #c1c1c1;
+    margin-bottom: 10%;
+    
+    
+
 }
