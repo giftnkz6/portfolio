@@ -8,7 +8,7 @@
 body{
     text-align: center;
     background-color: darkgrey;
-    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -16,11 +16,26 @@ body{
 }
 /* logo image */
 .logo{
-    width: 2rem;
+    width: 3rem;
+    border-radius: 50;
+}
+/* Home General Styling */
+#home{
+     /* margin-top: 5%; */
+}
+/* Home image */
+.wrapper img{
+    width: 35rem;
+}
+/* About inline */
+#about figure{
+    display: flex;
+    justify-content: center;
 }
 /* About image */
 .image-about{
     width: 25rem;
+    margin-left: 10%;
 }
 /* Resume */
 #resume p{
@@ -108,4 +123,7 @@ a{
 /* Skills */
 #skills{
     margin-top: 5%;
+}
+.progress {
+    width: 100%;
 }
