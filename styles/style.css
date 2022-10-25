@@ -1,338 +1,111 @@
+/* Universal */
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-html{
-    text-align: center;
-}
-/* header, main, footer */
-header, main, footer {
-    min-width: 100%;
-}
-/* header */
-header {
-    display: flex;
-    justify-content: space-between;
-    /* background-color: pink;  */
-    /* opacity: 0.7; */
-    /* background-color: blueviolet;   */
-    position: fixed; 
-    top: 0;
-    margin-bottom: 20%;
-}
+/* General Styling */
 body{
-    /* background-color:lightcoral; */
-    /* background-image: url("https://mowico.com/wp-content/uploads/2022/08/Low-Code-vs-No-Code-790x320.png"); */
-    
-         /* This image is the first priority */
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
-    /* background-image: url("https://i.pinimg.com/736x/a7/30/e0/a730e0dec7f98bc11e199d7b31f22f66.jpg"); */
-}
-
-
-.logo {
-    width: 3em;
-}
-/* Place the menu to the right of the page. */
-.menu {
-    /* margin: auto 0; */
-    align-items: flex-end;
-    margin: 5px 10px 0;
-}
-.menu-list {
-    display: inline-flex;
-    list-style: none;
-}
-.menu{
-    /* position: fixed; */
-}
-.menu-list li {
-    padding: 0 5px;
-}
-header .menu .menu-list li a{
-    list-style: none;
-    color: black;
-}
-header .menu .menu-list li a:hover {
-    color: fuchsia;
-    z-index: 1;
-  }
-/* main */
-/* heading */
-h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    margin-bottom: 15px;
-    color: black;
+    background-color: darkgrey;
+    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
 }
-/* home */
-#home {
-    
-    /* background-color: rgba(106, 115, 92, .7); */
-    color: black;
-    margin-bottom: 2%;
-    margin-top: 4%;
+/* Navbar list styling */
+.navbar-nav li{
+    margin: 0 0.8rem;
 }
-#home p{
-    font-size: large;
+/* logo image */
+.logo{
+    width: 2rem;
 }
-.wrapper {
-    min-height: 100vh;
-    align-content: center;
+/* About image */
+.image-about{
+    width: 25rem;
 }
-.wrapper img{
-    display: block;
-    margin: 15px auto;
-    /* width: 50%; */
-    height: 32em;
-}
-.wrapper p {
-    text-align: center;
-}
-#resume h4{
-    color: black;
-}
-#resume h2{
-    /* color: White; */
-}
+/* Resume */
 #resume p{
     text-align: center;
     border-style: dashed;
     border-radius: 10%;
     border-color: azure;
-    width: 200px;
-    height: 180px;
+    width: 235px;
+    height: 215px;
     border-radius: 100px / 50px;
     box-sizing: border-box;
     padding-top: 20px;
     margin:auto;
     color: black;
 }
-
-
-.addressp address{
-    text-align: center;
-    /* color: white; */
-    color: black;
-    /* font-weight: bold; */
-}
-address a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-}
-#contact{
-    margin-top: 3%;
-}
-#contact .address-form .form{
-    text-align: center;
-    
-}
-#contact .address-form .form input{
-    padding: .5%;
-    margin: .2% 0%;
-}
-#project{
-    color: purple;
-    margin-top: 8%;
-}
-#project .img-project{
-    /* width: 1em; */
-    text-align: center;
-}
-.fig img{
-    width: 19vw; 
-    /* height: 83vh; */
-    align-content: center;
-}
-#project div .fig img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#project div p{
-    text-align: center;
-}
-footer p{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
-}
-p{
-    color: black;
-    /* color: blueviolet; */
-}
-#project div a{
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-.radio{
-    color: black;
-}
-header .menu-list a{
+/* Navbar link */
+a{
     text-decoration: none;
 }
-
-footer{
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-#skills p{
-    text-align: center;
-}
-.container {
-    width: 100%; /* Full width */
-    background-color: blue; /* Grey background */
-}
-
-.skills{
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-}
-h2{
-    font-size: 3em;
-    color: purple;
-}
-#description{
-    font-size: 120%;
-}
-footer{
-    width: 100%;
-    text-align: center;
-}
-#menu #menu-list{
-    /* display: inline-flex; */
-    list-style: none;
-}
-#menu #menu-list li {
-    margin-bottom: 10px;
-    
-}
-#menu #menu-list li a{
-    text-decoration: none;
-    
-}
-#menu{
-    vertical-align: center;
-}
-#about{
-    display: block;
-    
-
-}
-.image-about{
-    margin-left: 32%;
-    /* width: 40vw; */
-    /* width: 50vh; */
-    height: 28em;
-    margin-bottom: 10%;
-}
-#about h2{
-    text-align: center;
-}
-
-.about-box{
-    /* border: 1px dashed white; */
-    max-width: 30%;
-    /* padding-top: 2%; */
-    padding-bottom: 1.5%;
-    padding-right: 1.5%;
-    border-radius: 100px/50px;
-    margin-left: 4%;
-    /* margin: auto; */
-    max-height: 55vh;
-    margin-top: 3%;
-    padding-left: 1.5%;;
-    /* background-color: purple; */
-}
-.about-box p{
-    min-width: 20em;
-    font-size: 100%;
-}
-.about-container{
-    display: flex;
-}
-
-#about{
-    margin: auto;
-}
-.first-image img{
-    width: 11%;
-    border-radius: 65%;
-    height: 20vh;
-    margin-left: 42%;
-    margin-bottom: 0.01%;
-
-}
-#testimonial .first-image{
-    display: flex;
-}
+/* testimonial 1 styling */
 #testimonial .first-testimonial{
-    display: inline-block;
-    /* Real styles */
     position: relative;
-    width: 22%;
-    height: 105px;
-    margin-left: 2%;
+    width: 32%;
+    min-width: 1%;
+    height: auto;
+    margin: auto;
     padding: 15px;
-    padding-bottom: 7%;
+    padding-bottom: 1%;
     background-color: #fff;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
-    /* margin-top: 1%; */
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* opacity: 0.5; */
+    
 
 }
-.second-image img{
-    border-radius: 65%;
-    width: 14%;
-    height: 26vh;
-    margin-left: 22%;
-    margin-top: 2%;
-
-}
-#testimonial .second-image{
-    /* display: flex; */
-}
+/* testimonial 2 styling */
 #testimonial .second-tetstimonial{
-    display: inline-block;
     /* Real styles */
     position: relative;
-    width: 22%;
-    height: 105px;
-    margin-left: 2%;
+    width: 30%;
+    min-width: 5%;
+    height: auto;
+    margin: auto;
     padding: 15px;
+    padding-bottom: 1%;
     background-color: #fff;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
-    margin-top: 0.3%;
-
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
-.third-image img{
-    border-radius: 65%;
-    margin-left: 24%;
-}
+/* testimonial 3 styling */
 #testimonial .third-testimonial{
-    display: inline-block;
-    /* Real styles */
     position: relative;
-    width: 22%;
-    height: 105px;
-    margin-left: 2%;
+    width: 30%;
+    min-width: 5%;
+    height: auto;
+    margin: auto;
     padding: 15px;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     background-color: #fff;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
-    margin-bottom: 10%;
-    /* margin-top: 8%; */
-    
-    
+    margin-top: 1%;
+    margin-bottom: 5%;
 
+}
+/* Testimonial first image */
+.first-image{
+    /* width: 15rem; */
+}
+.contain{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    border-radius: 3%;
+    margin-bottom: 10%;
+}
+/* Skills */
+#skills{
+    margin-top: 5%;
 }
