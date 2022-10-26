@@ -112,7 +112,7 @@ a{
 .first-image{
     /* width: 15rem; */
 }
-.contain{
+#contain{
     width: 500px;
     height: auto;
     background-color: white;
