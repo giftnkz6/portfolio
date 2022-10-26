@@ -124,6 +124,15 @@ a{
 #skills{
     margin-top: 5%;
 }
-.progress {
-    width: 100%;
+#skills .container {
+    width: 40%;
 }
+
+/* Media Query */
+@media screen and (max-width: 900px){
+    #skills .container{
+        min-width: 12em;
+    }
+    
+}
+
