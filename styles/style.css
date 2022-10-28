@@ -8,7 +8,7 @@
 body{
     text-align: center;
     background-color: darkgrey;
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -32,9 +32,15 @@ body{
     display: flex;
     justify-content: center;
 }
+#about-container{
+    width: 60rem;
+    background-color: black;
+    
+}
 /* About image */
 .image-about{
-    width: 25rem;
+    width: 20%;
+    height: 50%;
     margin-left: 10%;
 }
 /* Resume */
@@ -55,6 +61,10 @@ body{
 a{
     text-decoration: none;
 }
+.navbar a:hover{
+    color: green;
+}
+
 /* testimonial 1 styling */
 #testimonial .first-testimonial{
     position: relative;
