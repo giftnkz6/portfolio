@@ -7,8 +7,11 @@
 /* General Styling */
 body{
     text-align: center;
-    background-color: lightcoral;
-    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
+    background-color: lightgray;
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+}
+h2{
+    color: purple;
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -26,6 +29,29 @@ body{
 /* Home image */
 .wrapper img{
     width: 35rem;
+}
+.home-container{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,2fr);
+    justify-content: center;
+    margin-top: 5em;
+    
+}
+.h2-2{
+    grid-column: 1/-1;
+    /* background-color: blanchedalmond; */
+}
+.h2-3{
+
+   
+}
+.h2-1{
+
+}
+.h2-4{
+
 }
 /* About inline */
 #about figure{
@@ -60,12 +86,14 @@ body{
 /* Navbar link */
 a{
     text-decoration: none;
+    color: purple;
 }
 .navbar a:hover{
     color: green;
 }
 
 /* testimonial 1 styling */
+
 #testimonial .first-testimonial{
     position: relative;
     width: 32%;
@@ -85,6 +113,7 @@ a{
 
 }
 /* testimonial 2 styling */
+
 #testimonial .second-tetstimonial{
     /* Real styles */
     position: relative;
@@ -141,13 +170,18 @@ a{
 #project figure img{
     width: 10rem;
 }
+/* #project-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+} */
 
 /* Media Query */
 @media screen and (max-width: 900px){
     #skills .container{
         min-width: 18em;
     }
-    
+
 }
 @media screen and (max-width: 300px){
     #skills .container{
