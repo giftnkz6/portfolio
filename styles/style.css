@@ -7,7 +7,7 @@
 /* General Styling */
 body{
     text-align: center;
-    background-color: darkgrey;
+    background-color: lightcoral;
     /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
 }
 /* Navbar list styling */
@@ -32,11 +32,11 @@ body{
     display: flex;
     justify-content: center;
 }
-#about-container{
+/* #about-container{
     width: 60rem;
     background-color: black;
     
-}
+} */
 /* About image */
 .image-about{
     width: 20%;
@@ -137,6 +137,10 @@ a{
 #skills .container {
     width: 40%;
 }
+/* Project */
+#project figure img{
+    width: 10rem;
+}
 
 /* Media Query */
 @media screen and (max-width: 900px){
@@ -145,4 +149,11 @@ a{
     }
     
 }
+@media screen and (max-width: 300px){
+    #skills .container{
+        min-width: 13em;
+    }
+    
+}
+
 
