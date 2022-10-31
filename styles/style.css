@@ -9,7 +9,10 @@ body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: black; */
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+    /* first option */
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); 
+    /* background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg"); */
 }
 h2{
     color: limegreen;
