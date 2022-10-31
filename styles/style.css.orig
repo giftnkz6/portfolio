@@ -7,12 +7,16 @@
 /* General Styling */
 body{
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-color: black; */
+<<<<<<< HEAD
+    background-color: darkcyan;
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
+=======
+    background-color: lightgray;
     background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
 }
 h2{
     color: limegreen;
+>>>>>>> 3a30c5273f85593839dba9c5e9485850f1ae6232
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -25,36 +29,11 @@ h2{
 }
 /* Home General Styling */
 #home{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.portfolio-h2{
-    color: blueviolet;
+     /* margin-top: 5%; */
 }
 /* Home image */
-#home-image{
-    width: 30rem;
-}
-
-/* Home animation */
-#home-text{
-    position: relative;
-    width: 40vw;
-    /* border: 2px solid white; 
-    background-color:white; */
-    margin: auto;
-    margin-top: 30px;
-    animation-name: animations;
-    animation-duration: 4s;
-    /* animation-delay: 2s; */
-    animation-iteration-count: 2;
-}
-/* #home-text{
-    width: 40vw;
-    margin-top: 12%;
-} */
-#home-heading{
-    margin-bottom: 5%;
+.wrapper img{
+    width: 35rem;
 }
 .home-container{
     display: grid;
@@ -65,10 +44,27 @@ h2{
     margin-top: 5em;
     
 }
+.h2-2{
+    grid-column: 1/-1;
+    /* background-color: blanchedalmond; */
+}
+.h2-3{
+
+   
+}
+.h2-1{
+
+}
+.h2-4{
+
+}
 /* About inline */
 #about figure{
     display: flex;
     justify-content: center;
+}
+#about{
+    margin-top: 10rem;
 }
 /* #about-container{
     width: 60rem;
@@ -76,22 +72,11 @@ h2{
     
 } */
 /* About image */
-#about-container img{
-    width: 28em;
+.image-about{
+    width: 30%;
+    height: 50%;
+    margin-left: 10%;
 }
-#about h2{
-    color: limegreen;
-}
-#about-text h2{
-    color: black;
-}
-#about-text{
-    margin-top: 15%;
-}
-#about-text h3{
-    color: blueviolet;
-}
-
 /* Resume */
 #resume p{
     text-align: center;
@@ -104,7 +89,6 @@ h2{
     box-sizing: border-box;
     padding-top: 20px;
     margin:auto;
-    margin-bottom: 3%;
     color: black;
 }
 /* Navbar link */
@@ -114,6 +98,10 @@ a{
 }
 .navbar a:hover{
     color: purple;
+}
+/* Home */
+.wrapper-2{
+    width: 100%;
 }
 
 /* testimonial 1 styling */
@@ -171,6 +159,9 @@ a{
     margin-bottom: 5%;
 
 }
+/* h2{
+    color: tan;
+} */
 /* Testimonial first image */
 .first-image{
     /* width: 15rem; */
@@ -194,37 +185,10 @@ a{
 #project figure img{
     width: 10rem;
 }
-/* footer */
-footer{
-    
-}
-footer ul li{
-    display: inline;
-    margin: 2%;
-}
-footer .fa-brands{
-    font-size: 25px;
-}
 /* #project-container{
     display: flex;
     flex-flow: row wrap;
     gap: 1em;
-} */
-
-
-
-/* #wrapper-2{
-    display: flex;
-    position: relative;
-    width: 30rem;
-    border: 2px solid white; 
-    background-color:white;
-    margin: auto;
-    margin-top: 30px;
-    animation-name: animation-1;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-iteration-count: 2;
 } */
 
 /* Media Query */
@@ -232,20 +196,7 @@ footer .fa-brands{
     #skills .container{
         min-width: 18em;
     }
-    #home-image{
-        min-width: 15em;
-    }
-    /* #home-text{
-        width: 10em;
-        animation-name: animations;
-        animation-duration: 4s;
-    } */
-    #contact #form form{
-        width: 10em;
-    }
-    #about figure img{
-        min-width: 15rem;
-    }
+
 }
 @media screen and (max-width: 300px){
     #skills .container{
@@ -253,11 +204,47 @@ footer .fa-brands{
     }
     
 }
-@keyframes animations {
-    0%   {border:2px solid blueviolet; left:0px; top:0px;}
-    25%  {border:2px solid yellow; left:0px; top:0px;}
+
+  .wrapper-1{
+    display: flex;
+    position: relative;
+    width: 30rem;
+    /* border: 2px solid white; */
+    /* background-color:white; */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+}
+.wrapper-2{
+    display: flex;
+    position: relative;
+    width: 30rem;
+    /* border: 2px solid white; */
+    /* background-color:white; */
+    margin: auto;
+    margin-top: 30px;
+    animation-name: example-1;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+}
+@keyframes example {
+    0%   {left:0px; top:0px; margin: auto; ;}
+    25%  {left:200px; top:0px; margin: auto;}
     /* 50%  {border:2px solid blue; left:200px; top:200px; background-color: green;} */
-    75%  {border:2px solid green; left:0px; top:200px;}
-    100% {border:2px solid orange; left:0px; top:0px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px; margin: auto;}
   }
-  
+  @keyframes example-1{
+    0%   {right:0px; top:0px; margin: auto; ;}
+    25%  {right:200px; top:0px; margin: auto;}
+    /* 50%  {left:200px; top:200px; background-color: green;} */
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px; margin: auto;}
+  }
+
+
