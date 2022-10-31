@@ -7,8 +7,8 @@
 /* General Styling */
 body{
     text-align: center;
-    background-color: lightcoral;
-    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); */
+    background-color: darkcyan;
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -31,6 +31,9 @@ body{
 #about figure{
     display: flex;
     justify-content: center;
+}
+#about{
+    margin-top: 10rem;
 }
 /* #about-container{
     width: 60rem;
@@ -63,6 +66,10 @@ a{
 }
 .navbar a:hover{
     color: green;
+}
+/* Home */
+.wrapper-2{
+    width: 100%;
 }
 
 /* testimonial 1 styling */
@@ -118,6 +125,9 @@ a{
     margin-bottom: 5%;
 
 }
+/* h2{
+    color: tan;
+} */
 /* Testimonial first image */
 .first-image{
     /* width: 15rem; */
@@ -155,5 +165,47 @@ a{
     }
     
 }
+
+  .wrapper-1{
+    display: flex;
+    position: relative;
+    width: 30rem;
+    /* border: 2px solid white; */
+    /* background-color:white; */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+}
+.wrapper-2{
+    display: flex;
+    position: relative;
+    width: 30rem;
+    /* border: 2px solid white; */
+    /* background-color:white; */
+    margin: auto;
+    margin-top: 30px;
+    animation-name: example-1;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+}
+@keyframes example {
+    0%   {left:0px; top:0px; margin: auto; ;}
+    25%  {left:200px; top:0px; margin: auto;}
+    /* 50%  {border:2px solid blue; left:200px; top:200px; background-color: green;} */
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px; margin: auto;}
+  }
+  @keyframes example-1{
+    0%   {right:0px; top:0px; margin: auto; ;}
+    25%  {right:200px; top:0px; margin: auto;}
+    /* 50%  {left:200px; top:200px; background-color: green;} */
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px; margin: auto;}
+  }
 
 
