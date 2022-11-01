@@ -327,9 +327,9 @@ footer ul li #twitter{
 }
 
 @keyframes animations {
-    0%   {border:2px solid limegreen; left:0px; top:0px;}
-    25%  {border:2px solid orange; left:0px; top:0px;}
-    /* 50%  {border:2px solid blue; left:200px; top:200px;} */
+    0%   {border:2px solid blueviolet; left:0px; top:0px;}
+    25%  {border:2px solid yellow; left:0px; top:0px;}
+    50%  {border:2px solid blue; left:0px; top:0px;}
     75%  {border:2px solid limegreen; left:0px; top:0;}
     100% {border:2px solid orange; left:0px; top:0px;}
   }
