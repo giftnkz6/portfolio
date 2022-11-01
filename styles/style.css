@@ -43,7 +43,7 @@ h2{
 /* Home image */
 #home-image{
     box-shadow: 0 0 25px #c1c1c1;
-    width: 30rem;
+    width: 28rem;
 }
 
 /* Home animation */
@@ -53,11 +53,11 @@ h2{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 9em;
     animation-name: animations;
     animation-duration: 4s;
     /* animation-delay: 2s; */
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     /* background-color: #fff; */
 }
 #home #home-text p{
@@ -102,14 +102,14 @@ h2{
     color: limegreen;
 }
 #about-text h2{
-    color: blueviolet;
+    color: black;
     /* background-color: blueviolet; */
 }
 #about-text{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
-    background-color: #c1c1c1;
+    background-color: darkorchid;
 }
 #about-text h3{
     color: blueviolet;
@@ -288,6 +288,14 @@ footer ul li #twitter{
         min-width: 15rem;
     }
 } */
+
+@media screen and (max-width:400px) {
+    #contact .container .row #form .form .mb-4 input control-fom{
+        width: 15rem;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     #about-text{
         margin-top: 2%;
@@ -304,6 +312,9 @@ footer ul li #twitter{
     #testimonial .third-testimonial{
         margin-top: 2%;
     }
+    #home-text{
+        margin-bottom: 2em;
+    }
     
     
 }
@@ -316,10 +327,10 @@ footer ul li #twitter{
 }
 
 @keyframes animations {
-    0%   {border:2px solid blueviolet; left:0px; top:0px;}
-    25%  {border:2px solid blueviolet; left:0px; top:0px;}
+    0%   {border:2px solid limegreen; left:0px; top:0px;}
+    25%  {border:2px solid orange; left:0px; top:0px;}
     /* 50%  {border:2px solid blue; left:200px; top:200px;} */
-    75%  {border:2px solid green; left:0px; top:200px;}
+    75%  {border:2px solid limegreen; left:0px; top:0;}
     100% {border:2px solid orange; left:0px; top:0px;}
   }
   
