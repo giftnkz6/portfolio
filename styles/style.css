@@ -102,12 +102,14 @@ h2{
     color: limegreen;
 }
 #about-text h2{
-    color: black;
+    color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #about-text{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
+    background-color: #c1c1c1;
 }
 #about-text h3{
     color: blueviolet;
@@ -303,7 +305,7 @@ footer .fa-brands{
 @keyframes animations {
     0%   {border:2px solid blueviolet; left:0px; top:0px;}
     25%  {border:2px solid blueviolet; left:0px; top:0px;}
-    50%  {border:2px solid blue; left:200px; top:200px;}
+    /* 50%  {border:2px solid blue; left:200px; top:200px;} */
     75%  {border:2px solid green; left:0px; top:200px;}
     100% {border:2px solid orange; left:0px; top:0px;}
   }
