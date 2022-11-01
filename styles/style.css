@@ -251,6 +251,19 @@ footer ul li{
 footer .fa-brands{
     font-size: 25px;
 }
+footer ul li #linkedin{
+    color: blue;
+}
+footer ul li #facebook{
+    color: blue;
+}
+footer ul li #instagram{
+    color: orangered;
+}
+footer ul li #twitter{
+    color: skyblue;
+}
+
 
 /* #project-container{
     display: flex;
