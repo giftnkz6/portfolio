@@ -10,12 +10,13 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: black; */
     /* first option */
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); 
+    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg");  */
     /* background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
-    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg"); */
+    /* background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-019.jpg"); */
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg");
 }
 h2{
-    color: limegreen;
+    color: purple;
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -54,14 +55,14 @@ h2{
     box-shadow: 0 0 10px #c1c1c1;
     margin: auto;
     margin-top: 9em;
-    animation-name: animations;
+    /* animation-name: animations; */
     animation-duration: 4s;
     /* animation-delay: 2s; */
     animation-iteration-count: infinite;
     /* background-color: #fff; */
 }
 #home #home-text p{
-    color: green;
+    color: black;
 }
 /* #home-text{
     width: 40vw;
@@ -99,7 +100,7 @@ h2{
     width: 22em;
 }
 #about h2{
-    color: limegreen;
+    color: purple;
 }
 #about-text h2{
     color: black;
@@ -109,7 +110,7 @@ h2{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
-    background-color: darkorchid;
+    background-color: azure;
 }
 #about-text h3{
     color: blueviolet;
