@@ -259,6 +259,9 @@ footer{
     position: absolute;
     width: 100%;
 }
+footer p{
+    font-weight: bold;
+}
 footer ul li{
     display: inline;
     margin: 2%;
