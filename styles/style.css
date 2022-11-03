@@ -243,6 +243,8 @@ a{
 .carousel-control-prev{
     filter: invert(100%);
 }
+/* To stop carousel auto play */
+/* data-interval="false" */
 /* Skills */
 #skills{
     margin-top: 5%;
