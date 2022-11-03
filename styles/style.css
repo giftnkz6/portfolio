@@ -9,6 +9,7 @@ body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: black; */
+    /* background-color: maroon; */
     /* first option */
     background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); 
     /* background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
@@ -16,7 +17,8 @@ body{
     /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg"); */
 }
 h2{
-    color: purple;
+    color: blueviolet;
+    text-shadow: 2px 2px white;
 }
 /* Navbar list styling */
 .navbar-nav li{
@@ -35,11 +37,12 @@ h2{
 /* Home General Styling */
 #home{
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     scroll-margin-block-start: 50px;
 }
 .portfolio-h2{
     color: blueviolet;
+    text-shadow: 2px 1px white;
 }
 /* Home image */
 #home-image{
@@ -54,7 +57,7 @@ h2{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin: auto;
-    margin-top: 9em;
+    margin-top: 2em;
     /* animation-name: animations; */
     animation-duration: 4s;
     /* animation-delay: 2s; */
@@ -62,7 +65,8 @@ h2{
     /* background-color: #fff; */
 }
 #home #home-text p{
-    color: black;
+    color: white;
+    font-size: large;
 }
 /* #home-text{
     width: 40vw;
@@ -84,7 +88,7 @@ h2{
 #about,
 #contact,#skills,
 #testimonial,#project,#resume{
-    scroll-margin-block-start: 50px;
+    scroll-margin-block-start: 70px;
 }
 #about figure{
     display: flex;
@@ -100,17 +104,19 @@ h2{
     width: 22em;
 }
 #about h2{
-    color: purple;
+    color: blueviolet;
 }
-#about-text h2{
-    color: black;
-    /* background-color: blueviolet; */
-}
+
 #about-text{
     border-radius: 4px;
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
-    background-color: azure;
+    /* background-color: azure; */
+}
+
+#about-text p{
+    color: white;
+    font-size: large;
 }
 #about-text h3{
     color: blueviolet;
@@ -137,7 +143,7 @@ h2{
 /* Navbar link */
 a{
     text-decoration: none;
-    color: limegreen;
+    color: blueviolet;
 }
 .navbar a:hover{
     color: purple;
@@ -265,30 +271,7 @@ footer ul li #twitter{
     color: skyblue;
 }
 
-
-/* #project-container{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 1em;
-} */
-
 /* Media Query */
-
-/* @media screen and (max-width: 500px){
-    #skills .container{
-        min-width: 18em;
-    }
-    #home-image{
-        min-width: 15em;
-    }
-    
-    #contact #form form{
-        width: 10em;
-    }
-    #about figure img{
-        min-width: 15rem;
-    }
-} */
 
 @media screen and (max-width:400px) {
     #contact .container .row #form .form .mb-4 input control-fom{
@@ -337,10 +320,10 @@ footer ul li #twitter{
   
   @keyframes color-anim {
     0%   {border:2px solid blueviolet; left:0px; top:0px;}
-    25%  {border:2px solid yellow; left:0px; top:0px;}
+    /* 25%  {border:2px solid yellow; left:0px; top:0px;} */
     50%  {border:2px solid blue; left:200px; top:200px; background-color: white;}
     75%  {border:2px solid green; left:0px; top:200px;}
-    100% {border:2px solid orange; left:0px; top:0px;}
+    100% {border:2px solid blue; left:0px; top:0px;}
   }
 
 
