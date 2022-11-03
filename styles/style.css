@@ -40,8 +40,8 @@ h2{
 /* Home General Styling */
 #home{
     margin-top: 5%;
-    margin-bottom: 1%;
-    scroll-margin-block-start: 50px;
+    margin-bottom: 4%;
+    scroll-margin-block-start: 60px;
 }
 .portfolio-h2{
     color: blueviolet;
@@ -128,6 +128,9 @@ h2{
 }
 #about-text h3{
     color: blueviolet;
+}
+#about{
+    margin-bottom: 4%;
 }
 
 /* Resume */
@@ -233,7 +236,12 @@ a{
 }
 #testimonial .container img{
     width: 20em;
+    height: 10em;
     margin-top: 2%;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
 }
 /* Skills */
 #skills{
@@ -279,7 +287,7 @@ footer ul li #instagram{
     color: orangered;
 }
 footer ul li #twitter{
-    color: skyblue;
+    color:aqua;
 }
 
 /* Media Query */
