@@ -350,7 +350,7 @@ footer ul li #twitter{
   
   @keyframes color-anim {
     0%   {border:2px solid blueviolet; left:0px; top:0px;}
-    /* 25%  {border:2px solid yellow; left:0px; top:0px;} */
+    25%  {border:2px solid yellow; left:0px; top:0px;}
     50%  {border:2px solid blue; left:200px; top:200px; background-color: white;}
     75%  {border:2px solid green; left:0px; top:200px;}
     100% {border:2px solid blue; left:0px; top:0px;}
