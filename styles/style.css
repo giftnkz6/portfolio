@@ -8,10 +8,9 @@
 body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-color: black; */
     /* background-color: maroon; */
     /* first option */
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg"); 
+    background-image: url("../assets/images/Background-image.jpg"); 
     /* background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
     /* background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-019.jpg"); */
     /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg"); */
@@ -24,9 +23,7 @@ h2{
 .navbar-nav li{
     margin: 0 0.8rem;
 }
-.scroll{
-    scroll-margin-top: 15em;
-}
+
 .navbar ul{
     font-size: 18px;
 }
@@ -41,7 +38,7 @@ h2{
 #home{
     margin-top: 5%;
     margin-bottom: 4%;
-    scroll-margin-block-start: 60px;
+    scroll-margin-block-start: 100px;
 }
 .portfolio-h2{
     color: blueviolet;
@@ -65,7 +62,7 @@ h2{
     box-shadow: 0 0 10px #c1c1c1;
     margin: auto;
     margin-top: 8em;
-    animation-name: animations;
+    /* animation-name: animations; */
     animation-duration: 4s;
     /* animation-delay: 2s; */
     animation-iteration-count: 1s;
@@ -98,10 +95,10 @@ h2{
     animation-iteration-count: 1;
 }
 /* About inline */
-#about,
+#home,#about,
 #contact,#skills,
 #testimonial,#project,#resume{
-    scroll-margin-block-start: 70px;
+    scroll-margin-block-start: 80px;
 }
 #about figure{
     display: flex;
@@ -227,25 +224,40 @@ a{
 
 }
 /* Testimonial first image */
-#contain{
+/* #contain{
     width: 500px;
     height: auto;
     background-color: white;
     margin: auto;
     border-radius: 3%;
     margin-bottom: 10%;
-}
-#testimonial .container img{
+} */
+/* #testimonial .container img{
     width: 20em;
     height: 10em;
     margin-top: 2%;
-}
-.carousel-control-next,
+} */
+/* .carousel-control-next,
 .carousel-control-prev{
     filter: invert(100%);
+} */
+/* Carousel */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-item .card{
+    width: 20rem;
+    height: 38rem;
+}
+
 /* To stop carousel auto play */
 /* data-interval="false" */
+/* To add carousel auto play */
+/* data-bs-ride="carousel" */
 /* Skills */
 #skills{
     margin-top: 5%;
@@ -260,6 +272,9 @@ a{
 /* Contact */
 #contact{
     margin-top: 10rem;
+}
+#form{
+    width: 35rem;
 }
 address{
     color: white;
