@@ -261,6 +261,11 @@ a{
     width: 20rem;
     height: 38rem;
 }
+.carousel-item .card img{
+    height: 30vh;
+    object-fit: cover;
+    object-position: top;
+}
 
 /* To stop carousel auto play */
 /* data-interval="false" */
@@ -283,6 +288,9 @@ a{
 }
 #form{
     width: 35rem;
+}
+.form-floating #floatingTextarea{
+    height: 12rem
 }
 address{
     color: white;
