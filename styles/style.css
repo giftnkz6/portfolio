@@ -23,9 +23,19 @@ h2{
 .navbar-nav li{
     margin: 0 0.8rem;
 }
+.navbar {
+    z-index: 3;
+}
 
 .navbar ul{
     font-size: 18px;
+}
+header{
+    z-index: +3;
+}
+
+main {
+    z-index: 0;
 }
 
 
@@ -165,14 +175,20 @@ a{
 .navbar a:hover{
     color: purple;
 }
-.navbar{
+/* .navbar{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1;
     background-color: white;
+} */
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: +3;
+    background-color: white;
 }
-
 
 /* testimonial 1 styling */
 
