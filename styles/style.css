@@ -62,10 +62,10 @@ h2{
     box-shadow: 0 0 10px #c1c1c1;
     margin: auto;
     margin-top: 8em;
-    /* animation-name: animations; */
+    animation-name: animations;
     animation-duration: 4s;
     /* animation-delay: 2s; */
-    animation-iteration-count: 1s;
+    animation-iteration-count: 1;
     /* background-color: #fff; */
 }
 #home #home-text p{
@@ -88,11 +88,15 @@ h2{
     margin-top: 5em;
     
 }
-#home-animation{
-    animation-name: anim;
-    animation-duration: 2s;
-    animation-delay: -1s;
+.home-img{
+    position: relative;
+    opacity: 0;
+    animation-name: img-animation;
+    animation-duration: 4s;
+    animation-delay: 4s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 /* About inline */
 #home,#about,
@@ -111,6 +115,9 @@ h2{
 }
 #about h2{
     color: blueviolet;
+}
+#about-container .image-about{
+    width: 20rem
 }
 
 #about-text{
@@ -148,6 +155,7 @@ h2{
     animation-name: color-anim;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    /* background-color: white; */
 }
 /* Navbar link */
 a{
@@ -224,14 +232,14 @@ a{
 
 }
 /* Testimonial first image */
-/* #contain{
+#contain{
     width: 500px;
     height: auto;
     background-color: white;
     margin: auto;
     border-radius: 3%;
     margin-bottom: 10%;
-} */
+}
 /* #testimonial .container img{
     width: 20em;
     height: 10em;
@@ -307,6 +315,9 @@ footer ul li #instagram{
 footer ul li #twitter{
     color:aqua;
 }
+img{
+    object-fit:cover;
+}
 
 /* Media Query */
 
@@ -336,6 +347,9 @@ footer ul li #twitter{
     #home-text{
         margin-bottom: 2em;
     }
+    #home h2{
+        display: none;
+    }
     
     
 }
@@ -348,20 +362,23 @@ footer ul li #twitter{
 }
 
 @keyframes animations {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:0px; top:0px;}
-    75%  {left:0px; top:0;}
-    100% {left:0px; top:0px;}
+    0%   {top:-600px;}
+    100% {top:0px;}
   }
   
   @keyframes color-anim {
     0%   {border:2px solid blueviolet; left:0px; top:0px;}
     25%  {border:2px solid yellow; left:0px; top:0px;}
-    50%  {border:2px solid blue; left:200px; top:200px; background-color: white;}
+    /* 50%  {border:2px solid blue; left:200px; top:200px; background-color: white;} */
     75%  {border:2px solid green; left:0px; top:200px;}
-    100% {border:2px solid blue; left:0px; top:0px;}
+    100% {border:2px solid orange; left:0px; top:0px;}
   }
+  
+  @keyframes img-animation{
+    0%   {right: -100%; opacity:0;}
+    100% {right:0%; opacity:1;}
+}
+  
 
 
 
