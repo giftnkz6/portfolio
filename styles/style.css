@@ -10,7 +10,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: maroon; */
     /* first option */
-    background-image: url("../assets/images/Background-image.jpg"); 
+    background-image: url("../assets/images/Background-image.jpg");
     /* background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
     /* background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-019.jpg"); */
     /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-dark-beautiful-cosmetic-glow-background-image_189127.jpg"); */
@@ -356,7 +356,13 @@ img{
         margin-bottom: 2em;
     }
     #home h2{
-        display: none;
+        position: relative;
+        animation-name: appearing-animation;
+        animation-duration: 4s;
+        animation-delay: 8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     
     
@@ -386,6 +392,12 @@ img{
     0%   {right: -100%; opacity:0;}
     100% {right:0%; opacity:1;}
 }
+
+@keyframes appearing-animation{
+    0%   {opacity:0;}
+    100% {opacity:1;}
+}
+
   
 
 
