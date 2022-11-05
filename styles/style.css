@@ -165,7 +165,7 @@ main {
     animation-name: color-anim;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    /* background-color: white; */
+    background-color: white;
 }
 /* Navbar link */
 a{
